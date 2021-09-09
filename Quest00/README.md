@@ -30,6 +30,10 @@
 * GitHub에 가입한 뒤, [이 커리큘럼의 GitHub 저장소](https://github.com/KnowRe-Dev/WebDevCurriculum)의 우상단의 Fork 버튼을 눌러 자신의 저장소에 복사해 둡니다.
 * Windows의 경우 같이 설치된 git shell을, MacOSX의 경우 터미널을 실행시켜 커맨드라인에 들어간 뒤, 명령어를 이용하여 복사한 저장소를 clone합니다.
   * 앞으로의 git 작업은 되도록 커맨드라인을 통해 하는 것을 권장합니다.
+    - intelliJ를 통해 git for window를 받고 시작했으나 로그인 관련 이슈로 지속적으로 push 실패
+    - git update-git-for-windows 명령어로 최신 git으로 업데이트 한 후 문제 해결
+    - 추후 구글링 해보니까 2021년 8월 13일부로 저장소 접근방식이 변경되어 기존 id/pw 조합으로는 정상적으로 접근이 불가
+    - git 버전이 낮은경우 기존 조합으로 계속 시도하여 github접속에 실패하는것
 * 이 문서가 있는 폴더 바로 밑에 있는 sandbox 폴더에 파일을 추가한 후 커밋해 보기도 하고, 파일을 삭제해 보기도 하고, 수정해 보기도 하면서 각각의 단계에서 커밋했을 때 어떤 것들이 저장되는지를 확인합니다.
 * `clone`/`add`/`commit`/`push`/`pull`/`branch`/`stash` 명령을 충분히 익혔다고 생각되면, 자신의 저장소에 이력을 push합니다.
 
